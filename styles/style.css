@@ -142,3 +142,20 @@ hr {
  .solid {
   color: #aeaeae !important;
 }
+/* media query breakpoints */
+
+/* Mobile devise */
+@media  (max-width: 576px) {
+    .container{
+        width: 100%;
+    }
+    .top-player-section, .top-blogs-section, .lates-course-section{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+}
+@media (min-width:577px) and (max-width:992px) {
+    .top-player-section{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
