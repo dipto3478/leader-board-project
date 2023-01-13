@@ -11,12 +11,17 @@ body {
 }
 main {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 .container {
   width: 838px;
   background-color: #fff;
   padding: 30px;
+  margin-top: 20px;
+}
+.mb{
+    margin-bottom: 20px;
 }
 /* Top players section styles  */
 .section-title {
@@ -80,4 +85,60 @@ hr {
 .blog-content p a {
   color: #562eff;
   text-decoration: none;
+}
+/* latest course sections styles  */
+
+.lates-course-section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.lates-course {
+    padding: 15px;
+    Width: 252.42px;
+    Height: 269.79px;
+    box-shadow:  -5px 10px 10px rgba(0, 0, 0, 0.05);
+}
+.lates-course img {
+  width: 224px;
+  height: 104px;
+  margin-bottom: 18px;
+}
+.lates-course h4 {
+  color: #1e1e1e;
+  font-weight: 500;
+  font-size: 20.0336px;
+  line-height: 23px;
+  margin-bottom: 8px;
+}
+.lates-course p {
+  color: #ed6b4f;
+  font-weight: 400;
+  font-size: 14.6913px;
+  line-height: 17px;
+  margin-bottom: 18px;
+}
+.icons-lists {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icons p {
+    color: #A2A2A2;
+}
+.hours p {
+  color: #ff4a60;
+  font-weight: 600;
+  font-size: 14.6913px;
+  line-height: 20px;
+  background: #ffe4e8;
+  border-radius: 14.6913px;
+  padding: 3px 6px;
+}
+ .filled {
+  color: #ffc014 !important ;
+}
+ .solid {
+  color: #aeaeae !important;
 }
